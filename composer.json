@@ -1,0 +1,25 @@
+{
+    "name": "mademedia/silverstripe-patches",
+    "description": "A patch for SilverStripe (Patch framework to add `cascade_duplicates` functionality)",
+    "type": "silverstripe-patch",
+    "keywords": ["silverstripe", "patch"],
+    "authors": [
+        {
+            "name": "Lee Bradley",
+            "email": "lee.bradley@made.media"
+        }
+    ],
+    "require": {
+        "netresearch/composer-patches-plugin": "^1.2.1"
+    },
+    "extra": {
+        "patches": {
+            "silverstripe/framework": [
+                {
+                    "title": "[PATCH] A patch for SilverStripe add `cascade_duplicates` functionality",
+                    "url": "https://gist.githubusercontent.com/lbradley-mm/27436e17eea5cf89feb580cd64cadfe1/raw/52087c31e62582cffc1bbc9968c942190cfd68d0/cascade_duplicate.patch"
+                }
+            ]
+        }
+    }
+}
